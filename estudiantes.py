@@ -1,7 +1,10 @@
 import mysql.connector
 import json
 from config import db_config
+import os
+from dotenv import load_dotenv
 
+"""
 # Configuración de la base de datos (cambia estos valores con los tuyos)
 db_config = {
     'user': 'root',
@@ -9,6 +12,17 @@ db_config = {
     'host': '68.183.130.198',  # La IP de tu VPS
     'port': 3308,         # El puerto donde está expuesto MySQL
     'database': 'mysql'
+}
+"""
+# Cargar las variables de entorno
+load_dotenv()
+
+db_config = {
+    'user': os.getenv('DB_USER'),
+    'password': os.getenv('DB_PASSWORD'),
+    'host': os.getenv('DB_HOST'),
+    'port': os.getenv('DB_PORT'),
+    'database': os.getenv('DB_NAME')
 }
 
 # Función para conectarse a la base de datos
