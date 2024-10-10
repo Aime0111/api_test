@@ -1,0 +1,37 @@
+[
+    {
+        "ap_materno": "Mandujano",
+        "ap_paterno": "Tapia",
+        "no_control": "19590526",
+        "nombre": "Luis Daniel",
+        "semestre": 8
+    },
+    {
+        "ap_materno": "Guerrero",
+        "ap_paterno": "Mejia",
+        "no_control": "19590348",
+        "nombre": "Lesly Janeth",
+        "semestre": 5
+    },
+    {
+        "ap_materno": "Estrada",
+        "ap_paterno": "Duran",
+        "no_control": "18590294",
+        "nombre": "Aldo",
+        "semestre": 10
+    },
+    {
+        "ap_materno": "Reyes",
+        "ap_paterno": "BArrera",
+        "no_control": "18590510",
+        "nombre": "Pablo Raziel",
+        "semestre": 12
+    },
+    {
+        "ap_materno": "Anaya",
+        "ap_paterno": "Cruz",
+        "no_control": "19590338",
+        "nombre": "Aime",
+        "semestre": 10
+    }
+]
