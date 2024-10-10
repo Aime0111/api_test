@@ -4,6 +4,7 @@ requests==2.28.1
 flask                 # Para crear la API
 mysql-connector-python 
 python-dotenv  
+pymysql
 
 """
 flask
